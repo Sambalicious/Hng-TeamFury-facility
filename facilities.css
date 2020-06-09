@@ -63,9 +63,7 @@ body,html{
 .facilities-box{
     width: 60%; 
     justify-content:center;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
-    transition: 0.3s;
-    */
+    
 }
 .facilities-shadow{
     box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
@@ -87,20 +85,66 @@ body,html{
 }
 
 
-@media screen and (max-width:650px){
+@media screen and (max-width:480px){
+    .facilities-intro{
+        height: 45%;
+    }
+    .facilities-intro h2{
+        font-size: 40px;
+        line-height: 35px;
+        margin-top: 1.5rem;
+    }
+    .facilities-intro p{
+        font-size: 16px;
+        line-height: 10px;
+        margin: 0 4rem;
+    }
     .facilities-container{
         margin: 1rem;
         display: block;
-        width: 100%;
         
     }
 
     .facilities-margin{
         margin-bottom: 1rem;
-        margin-right: 0rem;
+        margin-right: 0;
         
     }
 
+    .facilities-box{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:996px){
+    .facilities-intro{
+        height: 40%;
+        text-align: center;
+    }
+    .facilities-intro h2{
+        font-size: 50px;
+        line-height: 45px;
+        margin-top: 6rem;
+    }
+    .facilities-intro p{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 4rem;
+    }
+    .facilities-container{
+        display: block;
+        margin: 2rem;
+    }
+    .facilities-box{
+        width: 100%;
+    }
+
+    .facilities-margin{
+        margin-bottom: 2rem;
+        margin-right: 0rem;
+        
+    }
 }
 
 
