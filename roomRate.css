@@ -10,7 +10,7 @@ body,html{
     box-sizing: border-box;
 }
 
-.facilities-intro{
+.room-rate-intro{
     background-image: url('https://res.cloudinary.com/dev-sam/image/upload/v1591706512/wwwnrxueirya8b3meo79.png');
     background-size: 100%;
     color: #fff;
@@ -21,14 +21,13 @@ body,html{
     place-items: center;
 }
 
-.facilities-intro section{
+.room-rate-intro section{
     background: rgba(0, 0, 0, 0.62);
     height: 100%;
     width: 100%;
-    
 }
 
-.facilities-intro h2{
+.room-rate-intro h2{
     font-weight:bold;
     color:#fff;
     text-align: center;
@@ -38,7 +37,7 @@ body,html{
 
 }
 
-.facilities-intro p{
+.room-rate-intro p{
     font-size: 20px;
     line-height: 24px;
     font-weight: 350;
@@ -46,103 +45,140 @@ body,html{
     margin: 0 4rem;
 }
 
-.facilities-container{
+.room-rate-container{
     margin: 5rem ;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-    
+    color: #fff;    
 }
 
-.facilities-container img{
+.room-rate-container img{
     width: 100%;
     height: 70%;
 }
 
-.facilities-box{
+.room-rate-box{
     width: 60%; 
-    justify-content:center;
+    height: 100%;
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
+
     
 }
-.facilities-shadow{
+
+.room-rate-box img{
+    height: 100%;
+    width: 100%;
+}
+
+.room-rate-price{
+    background: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    width: 55%;
+    padding: 0.5rem;
+}
+.room-rate-price h3{
+    margin-top: 3rem;
+    font-size: 30px;
+    line-height: 29px;
+}
+.room-rate-price p{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff
+}
+.room-rate-shadow{
     box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
     transition: 0.3s;
     padding: 0.3rem;
 }
 
-.facilities-shadow:hover{
+.room-rate-shadow:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0, 0, 0.2);
 }
 
-.facilities-box p{
+.room-rate-box p{
   padding:0.6rem;
 }
 
-.facilities-margin{
+.room-rate-margin{
     margin-right: 3rem;
     
+}
+
+button{
+    background: #344A71;
+    padding: 10px 40px;
+    color: #fff;
+    font-family: Gotham;
+    font-weight: 350;
+    font-size: 25px;
+    line-height: 30px;
+    border: none;
 }
 
 
 
 @media screen and (max-width:996px){
-    .facilities-intro{
+    .room-rate-intro{
         height: 40%;
         text-align: center;
     }
-    .facilities-intro h2{
+    .room-rate-intro h2{
         font-size: 50px;
         line-height: 45px;
         margin-top: 6rem;
     }
-    .facilities-intro p{
+    .room-rate-intro p{
         font-size: 20px;
         line-height: 30px;
         margin: 0 4rem;
     }
-    .facilities-container{
+    .room-rate-container{
         display: block;
         margin: 2rem;
     }
-    .facilities-box{
+    .room-rate-box{
         width: 100%;
     }
 
     @media screen and (max-width:480px){
-        .facilities-intro{
+        .room-rate-intro{
             height: 30%;
         }
-        .facilities-intro h2{
+        .room-rate-intro h2{
             font-size: 40px;
             line-height: 30px;
             margin-top: 2rem;
         }
-        .facilities-intro p{
+        .room-rate-intro p{
             font-size: 16px;
             line-height: 18px;
             margin: 0 4rem;
         }
-        .facilities-container{
+        .room-rate-container{
             margin: 1rem;
             display: block;
             
         }
     
-        .facilities-margin{
+        .room-rate-margin{
             margin-bottom: 1rem;
             margin-right: 0;
             
         }
     
-        .facilities-box{
+        .room-rate-box{
             width: 100%;
         }
     
     }
     
 
-    .facilities-margin{
+    .room-rate-margin{
         margin-bottom: 2rem;
         margin-right: 0rem;
         
