@@ -27,6 +27,7 @@ body,html{
     width: 100%;
 }
 .badge{
+    color: #fff; 
     background: black;
     padding:20px 0vh; 
     border: none;
