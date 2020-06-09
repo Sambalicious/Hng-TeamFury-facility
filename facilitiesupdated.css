@@ -28,13 +28,12 @@ body,html{
 }
 .badge{
     background: black;
-    width: relative;
-    height: relative;
+    padding:20px 0vh; 
     border: none;
     position: absolute;
     margin-top: 180px;
     text-decoration-color: #fff;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .facilities-intro h2{
