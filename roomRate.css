@@ -11,7 +11,7 @@ body,html{
 }
 
 .room-rate-intro{
-    background-image: url('https://res.cloudinary.com/dev-sam/image/upload/v1591706512/wwwnrxueirya8b3meo79.png');
+    background-image: url('https://drive.google.com/file/d/12672psdLxpgq-abDXQUK2kCBWvD-49in/view');
     background-size: 100%;
     color: #fff;
     height: 50%;
@@ -62,8 +62,24 @@ body,html{
     width: 60%; 
     height: 100%;
     background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
-
-    
+}
+.room-rate-box-1{
+    background: url('https://drive.google.com/file/d/1aoqM9MN3VCQQQ5jqGh_Y47bJdXgF70xJ/view');
+}
+.room-rate-box-2{
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
+}
+.room-rate-box-3{
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
+}
+.room-rate-box-4{
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
+}
+.room-rate-box-5{
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
+}
+.room-rate-box-6{
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
 }
 
 .room-rate-box img{
