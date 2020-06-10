@@ -11,16 +11,13 @@ body,html{
 }
 
 .room-rate-intro{
-<<<<<<< HEAD
-    background-image: url('https://drive.google.com/file/d/12672psdLxpgq-abDXQUK2kCBWvD-49in/view');
-=======
-    background-image: url('https://drive.google.com/file/d/16wfAPycTxXr0QyPNAxWCGZE6T97-2ou4/view?usp=drivesdk');
->>>>>>> b61f7fd87848f056e22613d9657333d2dad3feb1
-    background-size: 100%;
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591773940/hdtdi8mhawscfqkfyyv0.png') no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #fff;
     height: 50%;
-    width: 100%;
-    background-size: cover;
+   
+    
     display: flex;
     place-items: center;
 }
@@ -59,55 +56,40 @@ body,html{
 
 .room-rate-container img{
     width: 100%;
-    height: 70%;
+    height: 100%;
 }
 
 .room-rate-box{
-    width: 60%; 
-    height: 100%;
-<<<<<<< HEAD
-    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
+    width: 50%; 
+    height: 50%;
 }
-.room-rate-box-1{
-    background: url('https://drive.google.com/file/d/1aoqM9MN3VCQQQ5jqGh_Y47bJdXgF70xJ/view');
+.price{
+    font-family: Gotham Bold;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 33px;
+    padding: 40px 10px;
 }
-.room-rate-box-2{
-    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
-}
-.room-rate-box-3{
-    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
-}
-.room-rate-box-4{
-    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
-}
-.room-rate-box-5{
-    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
-}
-.room-rate-box-6{
-    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png');
-=======
-}
+
 .box-1{
-    background: url('https://drive.google.com/file/d/1aoqM9MN3VCQQQ5jqGh_Y47bJdXgF70xJ/view?usp=drivesdk');
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591817863/yrnxnluwzpz3atrrexu9.png') no-repeat;
 }
 .box-2{
-    background: url('https://drive.google.com/file/d/1wSxPhJZtcE7ZcaBsodzs5E6Uhm37Wext/view?usp=drivesdk');
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591817785/t0zvhdxkg2szmrxujrhf.png')  no-repeat;
 }
 .box-3{
-    background: url('https://drive.google.com/file/d/1WgHbF8Pd64_t9bJlW5_6QJkUNXFTe8BA/view?usp=drivesdk');
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591773813/gtelqkp15renoeoywakw.png')  no-repeat;
 }
 .box-4{
-    background: url('https://drive.google.com/file/d/10QtzD0LmMOxj3WNaZ9e7RpVkGcATucHU/view?usp=drivesdk');
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591773795/sgdzcufqfghuijtmuymu.png')  no-repeat;
 }
 .box-5{
-    background: url('https://drive.google.com/file/d/1li3xnCye0EvplIQvHP-f0Ufu710grj_3/view?usp=drivesdk');
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591728921/zsp0c3rrnm3p50nqs4zn.png') no-repeat;
 }
 .box-6{
-    background: url('https://drive.google.com/file/d/1g4HlOL-nvCUFIhY9WeZ3m04Q-hLtCwP8/view?usp=drivesdk');
-;
-
->>>>>>> b61f7fd87848f056e22613d9657333d2dad3feb1
+    background: url('https://res.cloudinary.com/dev-sam/image/upload/v1591773802/srk8clwodhhsbltdgeji.png')  no-repeat;
 }
+
 
 .room-rate-box img{
     height: 100%;
@@ -118,7 +100,7 @@ body,html{
     background: rgba(0, 0, 0, 0.65);
     height: 100%;
     width: 55%;
-    padding: 0.5rem;
+    padding:0 0.5rem;
 }
 .room-rate-price h3{
     margin-top: 3rem;
@@ -161,8 +143,26 @@ button{
     font-size: 25px;
     line-height: 30px;
     border: none;
+    margin-top: 2rem;
 }
 
+.room-rate-price{
+    width: 52%;
+    padding: 0.6rem;
+}
+
+li{
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+.checked {
+    color: orange;
+  }
 
 
 @media screen and (max-width:996px){
@@ -216,6 +216,13 @@ button{
     
         .room-rate-box{
             width: 100%;
+        }
+        button{
+            padding: 10px 20px;
+        }
+        .room-rate-price{
+            width: 70%;
+            padding: 0.6rem;
         }
     
     }

@@ -11,14 +11,14 @@ body,html{
 }
 
 .facilities-intro{
-    background-image: url('https://res.cloudinary.com/dev-sam/image/upload/v1591706512/wwwnrxueirya8b3meo79.png');
+    background-image: url('https://res.cloudinary.com/dev-sam/image/upload/v1591774082/t1s6dftrvoarawu0xmfz.png');
     background-size: 100%;
     color: #fff;
     height: 50%;
     width: 100%;
-    background-size: cover;
+  
     display: flex;
-    place-items: center;
+  
 }
 
 .facilities-intro section{
